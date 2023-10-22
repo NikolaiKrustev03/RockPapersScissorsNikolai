@@ -45,7 +45,7 @@ while True:
             print("Maybe you'd like to check out my other projects on https://github.com/NikolaiKrustev03")
             break
         elif not continue_game.isalpha():
-            print(f"{continue_game} isn't even an alphabetic character")
+            print(f"{continue_game} not allowed. Only Y or N as a valid answer")
         else:
             print("Only Y or N as a valid answer")
 
