@@ -36,11 +36,11 @@ def game():
 game()
 
 while True:
-    try:
 
+    try:
         continue_game = input("Would you like to continue? (Y/N)\n")
         if continue_game=="Y":
-            game()
+            guess_num()
         elif continue_game=="N":
             print("Maybe you'd like to check out my other projects on https://github.com/NikolaiKrustev03")
             break
@@ -50,4 +50,4 @@ while True:
             print("Only Y or N as a valid answer")
 
     except ValueError:
-        print("Got a value Error")
+        print("Invalid answer")
